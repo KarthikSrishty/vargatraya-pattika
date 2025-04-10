@@ -1,0 +1,67 @@
+<table className="table">
+          <thead>
+            <tr>
+              <th scope="col">Sl.No</th>
+              <th scope="col">వర్గ త్రయం</th>
+              <th scope="col" colSpan="2">గోత్రం</th>
+              <th scope="col" colSpan="2">పేరు</th>
+              <th scope="col">రూపం</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>మాతా మహం (అమ్మ తండ్రి )  మాతా మహం </td>
+              <td><input type="text" name="" id="" style={{ width: '100%' }} /></td>
+              <td><Typography>  గోత్రం  </Typography></td>
+              <td><input type="text" name="" id="" style={{ width: '100%' }} /></td>
+              <td><Typography>  శర్మాణాం   </Typography></td>
+              <td><Typography>  వసు రూపం   </Typography></td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>మాతు : పితామహం (అమ్మ తాత )  మాతు : పితామహం</td>
+              <td><input type="text" name="" id="" style={{ width: '100%' }} /></td>
+              <td><Typography>  గోత్రం  </Typography></td>
+              <td><input type="text" name="" id="" style={{ width: '100%' }} /></td>
+              <td><Typography>  శర్మాణాం   </Typography></td>
+              <td><Typography>  రుద్ర రూపం   </Typography></td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>మాతు : ప్రపితా మహం (అమ్మ ముత్తాత ) మాతు : ప్రపితా మహం</td>
+              <td><input type="text" name="" id="" style={{ width: '100%' }} /></td>
+              <td><Typography>  గోత్రం  </Typography></td>
+              <td><input type="text" name="" id="" style={{ width: '100%' }} /></td>
+              <td><Typography>  శర్మాణాం   </Typography></td>
+              <td><Typography>  రుద్ర రూపం   </Typography></td>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>మాతా మహీం  (అమ్మమ్మ)   మాతా మహీం</td>
+              <td><input type="text" name="" id="" style={{ width: '100%' }} /></td>
+              <td><Typography>  గోత్రామ్   </Typography></td>
+              <td><input type="text" name="" id="" style={{ width: '100%' }} /></td>
+              <td><Typography>  పదాం    </Typography></td>
+              <td><Typography>  వసు రూపం   </Typography></td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>మాతు : పితా మహీం (తల్లి నాయనమ్మ )</td>
+              <td><input type="text" name="" id="" style={{ width: '100%' }} /></td>
+              <td><Typography>  గోత్రామ్  </Typography></td>
+              <td><input type="text" name="" id="" style={{ width: '100%' }} /></td>
+              <td><Typography>  పదాం    </Typography></td>
+              <td><Typography>  రుద్ర రూపం   </Typography></td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>మాతు :  ప్రపితామహీం (తల్లి నాయనమ్మకు అత్తగారు ) </td>
+              <td><input type="text" name="" id="" style={{ width: '100%' }} /></td>
+              <td><Typography>  గోత్రామ్  </Typography></td>
+              <td><input type="text" name="" id="" style={{ width: '100%' }} /></td>
+              <td><Typography>  పదాం    </Typography></td>
+              <td><Typography>  ఆదిత్య రూపం   </Typography></td>
+            </tr>
+          </tbody>
+        </table>
