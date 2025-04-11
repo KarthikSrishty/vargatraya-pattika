@@ -272,7 +272,6 @@ const Landing = () => {
                             label="Payment Status"
                             value={paymentStatus}
                             onChange={(e) => setpaymentStatus(e.target.value)}
-                            onKeyPress={handleTeluguKeyPress(paymentStatus,setpaymentStatus)}
                             fullWidth
                             margin="normal"
                             variant="outlined"
