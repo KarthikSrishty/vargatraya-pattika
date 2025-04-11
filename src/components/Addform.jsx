@@ -59,7 +59,7 @@ const Addform = () => {
         navigate(`/print/${userid}`);
     };
 
-    const handleKeyPress = async (e, rowIndex, fieldName) => {
+    const handleKeyPress = async (e,row, rowIndex, fieldName) => {
         if (e.key === ' ' && row[fieldName].trim() !== '') {
             try {
                 const response = await axios.get(
@@ -149,7 +149,7 @@ const Addform = () => {
                             variant="outlined"
                             className="w-1/6"
                             value={row.gothramFirstName}
-                            onKeyPress={(e) => handleKeyPress(e, rowIndex, 'gothramFirstName')}
+                            onKeyPress={(e) => handleKeyPress(e,row, rowIndex, 'gothramFirstName')}
                             onChange={(event) => handleTextFieldChange(event, rowIndex, 'gothramFirstName')}
                         />
                         <Select
@@ -168,7 +168,7 @@ const Addform = () => {
                             variant="outlined"
                             className="w-1/6"
                             value={row.nameFirstName}
-                            onKeyPress={(e) => handleKeyPress(e, rowIndex, 'nameFirstName')}
+                            onKeyPress={(e) => handleKeyPress(e,row, rowIndex, 'nameFirstName')}
                             onChange={(event) => handleTextFieldChange(event, rowIndex, 'nameFirstName')}
                         />
                         <Select
