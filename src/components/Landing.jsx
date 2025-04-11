@@ -168,7 +168,6 @@ const Landing = () => {
                                                 type="text"
                                                 value={paymentStatus}
                                                 onChange={(e) => setpaymentStatus(e.target.value)}
-                                                onKeyPress={handleTeluguKeyPress(paymentStatus,setpaymentStatus)}
                                                 onBlur={() => togglePaymentStatus(data._id)}
                                                 onKeyDown={(e) => {
                                                     if (e.key === 'Enter') togglePaymentStatus(data._id);
