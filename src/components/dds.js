@@ -51,7 +51,9 @@ const dd2=[
 ]
 const dd3=[
     {value:'శర్మాణం',label:'శర్మాణం'},
-    {value:'పదాం',label:'పదాం'}
+    {value:'పదాం',label:'పదాం'},
+    {value:'గుప్తా',label:'గుప్తా'},
+    {value:'గుప్తిO',label:'గుప్తిO'}
 ]
 const dd4=[
     {value:'వసురూపం',label:'వసురూపం'},
